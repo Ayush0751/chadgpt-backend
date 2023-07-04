@@ -117,7 +117,7 @@ def askqns():
     tts.save(translated_audio_path)
 
     # Remove temporary audio file
-    os.remove(audio_path)
+    # os.remove(audio_path)
 
     return send_file(translated_audio_path, mimetype='audio/wav', as_attachment=True)
 
