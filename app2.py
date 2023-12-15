@@ -12,8 +12,8 @@ from waitress import serve
 import os
 from dotenv import load_dotenv
 load_dotenv('.env')
-API_KEY = os.getenv('APIKEY')
-
+# API_KEY = os.getenv('APIKEY')
+API_KEY = "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"
 
 
 app = Flask(__name__)
